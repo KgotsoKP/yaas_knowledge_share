@@ -9,7 +9,6 @@ Welcome to the Collaborative Teaching Hub – a Next.js web app by YAAS | YOLit 
 - **Personalized Profiles:** Showcase your expertise and contributions.
 - **Responsive Design:** Ensures a smooth user experience on all devices.
 
-
 ## Getting Started
 
 First, run the development server:
@@ -29,6 +28,35 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## ESLint and Prettier Setup (Optional)
+
+To enhance code quality and maintain a consistent coding style, you can set up ESLint and Prettier in your development environment. Follow these steps:
+
+1. **Install Required Packages:**
+   Ensure you have the necessary npm packages installed. Run the following command to install them:
+
+   ```bash
+   npm install eslint-config-prettier@^9.1.0 eslint-config-standard@^17.1.0 eslint-plugin-tailwindcss@^3.14.0 --save-dev
+
+## Configure VSCode Settings:
+
+Add the following settings to your project's `.vscode/settings.json` file. Create the file if it doesn't exist:
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true
+}
+
 
 ## Learn More
 
