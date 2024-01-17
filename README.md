@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Collaborative Teaching Hub by YAAS | YOLit Academy of Arts and Sciences
+
+Welcome to the Collaborative Teaching Hub – a Next.js web app by YAAS | YOLit Academy, empowering educators to collaborate and elevate teaching. Share knowledge, methods, and resources, fostering a vibrant community of learning.
+
+**Key Features:**
+- **Interactive Collaboration:** Seamlessly share innovative teaching strategies.
+- **Resource Sharing:** Easily upload, organize, and share lesson plans and materials.
+- **Community-driven Q&A:** Engage in meaningful discussions.
+- **Personalized Profiles:** Showcase your expertise and contributions.
+- **Responsive Design:** Ensures a smooth user experience on all devices.
+
 
 ## Getting Started
 
