@@ -23,8 +23,8 @@ const config: Config = {
           500: "#F5F5F5",
         },
         primary: {
-          300: "#e0ffff",
           200: "#69a9ff",
+          300: "#e0ffff",
           500: "#007BFF",
         },
         accent: {
