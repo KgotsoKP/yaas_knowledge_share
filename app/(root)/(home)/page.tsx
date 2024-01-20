@@ -1,11 +1,9 @@
-import React from 'react'
+import { UserButton } from "@clerk/nextjs";
 
-const HomePage = () => {
-  return (
-    <div>
-      Home Page
-    </div>
-  )
+export default function Home() {
+    return (
+        <div>
+            <UserButton />
+        </div>
+    )
 }
-
-export default HomePage
