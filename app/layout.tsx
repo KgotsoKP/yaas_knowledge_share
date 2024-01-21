@@ -26,7 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <h1 className="h1-bold">This is a text</h1>
       <body className={`${inter.variable}`}>
         <ClerkProvider
           appearance={{
