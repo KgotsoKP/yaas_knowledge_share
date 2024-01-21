@@ -16,7 +16,7 @@ const config: Config = {
       },
     },
     extend: {
-      color: {
+      colors: {
         bg: {
           300: "#c2c2c2",
           200: "#ebebeb",
